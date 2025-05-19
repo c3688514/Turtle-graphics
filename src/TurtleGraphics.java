@@ -43,7 +43,7 @@ import uk.ac.leedsbeckett.oop.LBUGraphics;
                         if (split_up_text.length > 1) {
                             try {
                                 int parameter = Integer.parseInt(split_up_text[1]);
-                                forward(direction);
+                                forward(parameter);
                             } catch (NumberFormatException e) {
                                 System.out.println("invalid parameter");
                             }
@@ -125,6 +125,8 @@ import uk.ac.leedsbeckett.oop.LBUGraphics;
                             System.out.println("save failed. ");
                         }
                         break;
+
+                        case "square "
 
 
                     default:
