@@ -1,4 +1,4 @@
-import java.awt.*;
+ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 import java.lang.reflect.Parameter;
@@ -81,11 +81,11 @@ public class TurtleGraphics extends LBUGraphics {
                     break;
 
                 case "backward":
-                    forward(-100);
+                    forward(100);
                     break;
 
                 case "left":
-                    left(-90);
+                    left(90);
                     break;
 
                 case "right":
@@ -94,6 +94,9 @@ public class TurtleGraphics extends LBUGraphics {
 
                 case "reset":
                     reset(); // reset turtle position and screen
+                    break;
+
+                case "clear":
                     clear();
                     break;
 
@@ -209,4 +212,4 @@ public class TurtleGraphics extends LBUGraphics {
 //lands here if return was pressed or "ok" JButton clicked
 
 //TO DO
-////this method must be provided because LBUGraphics will call it when it's JTextField is used
+//this method must be provided because LBUGraphics will call it when it's JTextField is used
