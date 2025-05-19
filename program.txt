@@ -1,0 +1,23 @@
+pendown
+move 100
+right
+move 100
+right
+move 100
+right
+move100
+right
+move 100
+forawrd 10
+right 10
+right 
+right
+forwar 100
+forward 100
+foward 
+forward 10
+right
+move 100
+move 10
+right 10
+move 100
